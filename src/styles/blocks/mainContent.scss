@@ -23,4 +23,105 @@
 
     color: $dark-03;
   }
+
+  &__content {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+
+    &-description {
+      width: 558px;
+      height: 173px;
+    }
+  }
+}
+
+.description-text {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: $dark-01;
+
+  &:not(:first-child) {
+    margin-top: 18px;
+  }
+}
+
+.send-form {
+  margin-top: 55px;
+
+  width: 557px;
+  height: 495px;
+
+  background: #fff;
+  border: 1px solid $dark-04;
+
+  &__inputs {
+    margin-top: 111px;
+    margin-left: 30px;
+  }
+
+  &__label {
+    display: block;
+    width: 100%;
+
+    &-driveExp {
+      position: relative;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__input {
+    width: 497px;
+    height: 62px;
+    padding-left: 30px;
+
+    background: #f9f9f9;
+    border: 1px solid $blue-01;
+
+    &-driveExp {
+      width: 497px;
+      height: 62px;
+      padding-left: 30px;
+
+      background: #f9f9f9;
+      border: 1px solid $blue-01;
+      &::placeholder {
+        font-family: "Lato", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 180%;
+        color: $dark-01;
+      }
+    }
+    &-arrow {
+      position: absolute;
+      right: 5px;
+      top: 3px;
+    }
+  }
+
+  &__button {
+    margin-top: 40px;
+    margin-left: 30px;
+
+    font-family: "Orelega One", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+
+    width: 200px;
+    height: 48px;
+    background: $blue-02;
+  }
 }

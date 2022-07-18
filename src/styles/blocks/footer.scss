@@ -1,0 +1,46 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 157px;
+
+  &__title {
+    display: flex;
+    align-self: center;
+
+    width: 853px;
+    height: 104px;
+
+    text-align: center;
+    font-family: "Orelega One", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 52px;
+    color: $blue-01;
+  }
+
+  &__button {
+    margin-bottom: 123px;
+
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+    text-decoration: none;
+
+    width: 280px;
+    height: 48px;
+    background: $red-01;
+
+    font-family: "Orelega One", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+}
