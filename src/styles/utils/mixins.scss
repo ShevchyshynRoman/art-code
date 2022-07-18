@@ -4,3 +4,9 @@
     #{$_property}: $_toValue;
   }
 }
+
+@mixin mobile {
+  @media (max-width: 480px) {
+    @content;
+  }
+}

@@ -1,0 +1,10 @@
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+
+  @include mobile {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+  }
+}

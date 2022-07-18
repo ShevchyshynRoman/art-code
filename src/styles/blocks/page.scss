@@ -1,0 +1,17 @@
+.page {
+  scroll-behavior: smooth;
+
+  &__body {
+    font-family: "Orelega One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 29px;
+
+    color: $dark-01;
+
+    margin: 0 auto;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+}
