@@ -4,6 +4,10 @@
   flex-direction: column;
   margin-top: 157px;
 
+  @include mobile {
+    margin-top: 0;
+  }
+
   &__title {
     display: flex;
     align-self: center;
@@ -18,10 +22,31 @@
     font-size: 48px;
     line-height: 52px;
     color: $blue-01;
+
+    @include mobile {
+      width: 90vw;
+    }
   }
 
   &__button {
     margin-bottom: 123px;
+
+    @include mobile {
+      margin-top: 240px;
+      margin-bottom: 20px;
+    }
+
+    &-text {
+      margin-right: 20px;
+
+      font-family: "Orelega One", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 20px;
+      text-transform: uppercase;
+      color: #fff;
+    }
 
     display: flex;
     align-self: center;
@@ -34,13 +59,5 @@
     width: 280px;
     height: 48px;
     background: $red-01;
-
-    font-family: "Orelega One", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 20px;
-    text-transform: uppercase;
-    color: #fff;
   }
 }
